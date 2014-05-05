@@ -4,6 +4,7 @@ GitBackup
 GitBackup is a simple app for backing up all your git repositories.
 All you need is access to the repositories (by deploykey or priv user key for example) and a configuration file in yaml format.
 
+---
 
 How to compile
 ==============
@@ -14,6 +15,7 @@ mvn package
 
 *the jar file are located in the target folder*
 
+---
 
 How to use
 ==========
@@ -27,6 +29,7 @@ java -jar /path/to/jarfile/gitbackup-1.0-SNAPSHOT-jar-with-dependencies.jar /pat
 
 (you can move the jar file and rename it)
 
+---
 
 Configuration example
 =====================
@@ -64,6 +67,10 @@ repositories:
       name: PhpRedisBundle
 ```
 
+---
+
 ToDo
 ====
 - time tracking in log and console output
+
+
